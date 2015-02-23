@@ -17,13 +17,13 @@ sudo apt-get -y install oracle-java7-installer
 
 export JAVA_HOME=/usr/lib/jvm/java-7-oracle
 
-#echo "[vagrant provisioning] Installing LibreOffice..."
-#
-#sudo apt-add-repository ppa:libreoffice/libreoffice-4-2
-#
-#sudo apt-get -y update
-#
-#sudo apt-get install libreoffice
+echo "[vagrant provisioning] Installing LibreOffice..."
+
+sudo apt-add-repository ppa:libreoffice/libreoffice-4-2
+
+sudo apt-get -y update
+
+sudo apt-get install libreoffice
 
 ##### PROVISION CHECK #####
 
