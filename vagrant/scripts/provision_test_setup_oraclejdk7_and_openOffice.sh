@@ -2,7 +2,9 @@
 
 sudo apt-get -y purge openjdk-7-jdk
 
-sudo apt-get install -y software-properties-common python-software-properties
+sudo apt-get -y update
+
+sudo apt-get -y install software-properties-common python-software-properties
 sudo add-apt-repository -y ppa:webupd8team/java
 
 sudo apt-get -y update
@@ -23,7 +25,7 @@ sudo apt-add-repository ppa:libreoffice/libreoffice-4-2
 
 sudo apt-get -y update
 
-sudo apt-get install libreoffice
+sudo apt-get -y install libreoffice
 
 ##### PROVISION CHECK #####
 
