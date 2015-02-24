@@ -2,6 +2,8 @@
 
 sudo apt-get -y purge openjdk-7-jdk
 
+sudo apt-get -y purge libreoffice*
+
 sudo apt-get -y update
 
 sudo apt-get -y install software-properties-common python-software-properties
@@ -21,17 +23,11 @@ export JAVA_HOME=/usr/lib/jvm/java-7-oracle
 
 echo "[vagrant provisioning] Installing LibreOffice..."
 
-sudo apt-add-repository ppa:libreoffice/libreoffice-4-2
+sudo add-apt-repository -y ppa:libreoffice/libreoffice-4-2
 
 sudo apt-get -y update
 
 sudo apt-get -y install libreoffice
-
-##### PROVISION CHECK #####
-
-# Create .provision_check for the script to check on during a next vargant up.
-echo "[vagrant provisioning] Creating .provision_check file..."
-touch .provision_check
 
 ##### PROVISION CHECK #####
 

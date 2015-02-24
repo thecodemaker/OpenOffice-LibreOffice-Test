@@ -1,6 +1,9 @@
 #!/bin/sh
 
-#vagrant init
-#vagrant up
+vagrant halt
+vagrant destroy -y
 
-vagrant reload --provision
+vagrant init
+vagrant up
+
+#vagrant reload --provision

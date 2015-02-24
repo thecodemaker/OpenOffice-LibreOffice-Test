@@ -1,6 +1,7 @@
 #!/bin/bash
 
-N=10;
+N=100;
+echo "$(libreoffice --version)";
 
 cd ./resources
 
@@ -9,6 +10,8 @@ for i in $(seq 1 $N); do
     cp input/hello.odt input/hello_$i.odt
 done
 
+libreoffice --headless --invisible --convert-to pdf --outdir "result/" input/hello.odt &>/dev/null
+
 #echo "Convert documents."
 startTime=$(date +%s);
 for i in $(seq 1 $N); do
@@ -16,7 +19,7 @@ for i in $(seq 1 $N); do
 done
 endTime=$(date +%s);
 duration=$((endTime-startTime));
-echo "Time required for the operation: ${duration}";
+echo "Time required for converting ${N} documents: ${duration}";
 
 #echo "Clean test data."
 for i in $(seq 1 $N); do
