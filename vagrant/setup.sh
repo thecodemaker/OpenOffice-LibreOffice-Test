@@ -1,7 +1,7 @@
 #!/bin/sh
 
 vagrant halt
-vagrant destroy -y
+vagrant destroy
 
 vagrant init
 vagrant up
