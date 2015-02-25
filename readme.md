@@ -12,4 +12,6 @@ Time required for converting 100 documents:
 <td>LibreOffice 4.2.8.2 420m0(Build:2)</td><td>236</td><td>248</td><td>227</td><td>237</td><td>8.6%</td>
 <tr></tr>
 <td>LibreOffice 4.0.4.2</td><td>180</td><td>172</td><td>178</td><td>176.6(6)</td><td>3.46%</td>
+<tr></tr>
+<td>LibreOffice 3.6</td><td>268</td><td>266</td><td>269</td><td>267.6(6)</td><td>1.41%</td>
 </tr></table>

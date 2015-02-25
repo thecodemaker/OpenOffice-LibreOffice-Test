@@ -23,7 +23,7 @@ export JAVA_HOME=/usr/lib/jvm/java-7-oracle
 
 echo "[vagrant provisioning] Installing LibreOffice..."
 
-sudo add-apt-repository -y ppa:libreoffice/libreoffice-3-5
+sudo add-apt-repository -y ppa:libreoffice/libreoffice-3-6
 
 sudo apt-get -y update
 
