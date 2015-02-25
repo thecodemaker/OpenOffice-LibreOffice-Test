@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # doesn't already exist on the user's system.
    config.vm.box_url = "http://files.vagrantup.com/precise32.box"
 
-   config.vm.provision "shell", path: "scripts/provision_test_setup_openOffice.sh"
+   config.vm.provision "shell", path: "scripts/3.provision_test_setup_oraclejdk7_and_libreOffice4.0.sh"
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
@@ -120,4 +120,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #
   #   chef.validation_client_name = "ORGNAME-validator"
 
+  if Vagrant.has_plugin?("vagrant-cachier")
+    # Configure cached packages to be shared between instances of the same base box.
+    # More info on http://fgrehm.viewdocs.io/vagrant-cachier/usage
+    config.cache.scope = :box
+  end
 end
