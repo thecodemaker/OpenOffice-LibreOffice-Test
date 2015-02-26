@@ -23,15 +23,15 @@ export JAVA_HOME=/usr/lib/jvm/java-7-oracle
 vagrant
 echo "[vagrant provisioning] Installing LibreOffice..."
 
-wget http://downloadarchive.documentfoundation.org/libreoffice/old/3.5.7.2/deb/x86/LibO-SDK_3.5rc2_Linux_x86_install-deb_en-US.tar.gz
+wget http://downloadarchive.documentfoundation.org/libreoffice/old/3.4.6.2/deb/x86/LibO_3.4.6rc2_Linux_x86_install-deb_en-US.tar.gz
 
-tar -xvzf LibO-SDK_3.5rc2_Linux_x86_install-deb_en-US.tar.gz
+tar -xvzf LibO_3.4.6rc2_Linux_x86_install-deb_en-US.tar.gz
 
-cd LibO-SDK_3.5rc2_Linux_x86_install-deb_en-US/DEBS
+cd LibO_3.4.6rc2_Linux_x86_install-deb_en-US/DEBS
 
 sudo dpkg -i *.deb
 
-sudo apt-get -y install libxrandr2:i386 libxinerama1:i386
+sudo apt-get install libxrandr2:i386 libxinerama1:i386
 
 ##### PROVISION CHECK #####
 
