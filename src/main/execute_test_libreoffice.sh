@@ -1,16 +1,19 @@
 #!/bin/bash
 
+NO_OF_EXECUTIONS=2;
+
 N=100;
-echo "$(date +"%H:%M:%S"): $(libreoffice --version)" >> test_results.txt
 
 cd ./resources
+
+echo "$(date +"%H:%M:%S"): $(libreoffice --version)" >> test_results.txt
 
 #echo "Create the documents we want to use for testing."
 for i in $(seq 1 $N); do
     cp input/hello.odt input/hello_$i.odt
 done
 
-libreoffice --headless --invisible --convert-to pdf --outdir "result/" input/hello.odt &>/dev/null
+libreoffice --headless --invisible --convert-to pdf --outdir "result/" input/hello.odt
 [[ $? != 0 ]] && echo "$(date +"%H:%M:%S"): Document conversion failed." >> test_results.txt
 
 echo "$(date +"%H:%M:%S"): Start document conversion."
