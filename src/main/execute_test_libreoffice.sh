@@ -1,7 +1,7 @@
 #!/bin/bash
 
 N=100;
-echo "$(libreoffice --version)";
+echo "$(date +"%H:%M:%S"): $(libreoffice --version)" >> test_results.txt
 
 cd ./resources
 
@@ -11,17 +11,18 @@ for i in $(seq 1 $N); do
 done
 
 libreoffice --headless --invisible --convert-to pdf --outdir "result/" input/hello.odt &>/dev/null
+[[ $? != 0 ]] && echo "$(date +"%H:%M:%S"): Document conversion failed." >> test_results.txt
 
-#echo "Convert documents."
+echo "$(date +"%H:%M:%S"): Start document conversion."
 startTime=$(date +%s);
 for i in $(seq 1 $N); do
     libreoffice --headless --invisible --convert-to pdf --outdir "result/" input/hello_$i.odt &>/dev/null
 done
 endTime=$(date +%s);
 duration=$((endTime-startTime));
-echo "Time required for converting ${N} documents: ${duration}";
+echo "$(date +"%H:%M:%S"): Time required for converting ${N} documents: ${duration}" >> test_results.txt
 
 #echo "Clean test data."
 for i in $(seq 1 $N); do
-    rm -f input/hello_$i.odt result/hello_$i.pdf
+    rm -f input/hello_$i.odt result/hello*.pdf
 done
