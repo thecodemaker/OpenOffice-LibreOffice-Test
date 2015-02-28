@@ -2,7 +2,7 @@
 
 cd ./resources
 
-echo -e "$(date +"%H:%M:%S"):\t$(soffice.bin --version)" >> test_results.txt
+echo -e "\n$(date +"%H:%M:%S"):\t$(soffice.bin --version)" >> test_results.txt
 
 NO_OF_DOCUMENTS=100;
 NO_OF_EXECUTIONS=10;
