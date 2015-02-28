@@ -26,10 +26,10 @@ for execution in $(seq 1 $NO_OF_EXECUTIONS); do
         --convert-to pdf \
         --outdir "result" input/hello.odt
 
-    if [ ! -e result/hello.pdf ]; then
-        echo "$(date +"%H:%M:%S"): Document conversion failed." >> test_results.txt
-        exit 1;
-    fi
+#    if [ ! -e /vagrant_data/resources/result/hello.pdf ]; then
+#        echo "$(date +"%H:%M:%S"): Document conversion failed." >> test_results.txt
+#        exit 1;
+#    fi
 
     echo "Start document conversion."
     startTime=$(date +%s);
