@@ -3,12 +3,8 @@
 LIBREOFFICE_VERSION=${1%?};
 echo "PARAM: LIBREOFFICE_VERSION=${LIBREOFFICE_VERSION}";
 
-LIBREOFFICE_DEB_FILE=${2%?};
+LIBREOFFICE_DEB_FILE=${2};
 echo "PARAM: LIBREOFFICE_DEB_FILE=${LIBREOFFICE_DEB_FILE}";
-
-LIBREOFFICE_HELPPACK_FILE=${3};
-echo "PARAM: LIBREOFFICE_HELPPACK_FILE=${LIBREOFFICE_HELPPACK_FILE}";
-
 
 CACHE_DIR='/var/cache/wget'
 TMP_DIR='/tmp'
@@ -43,27 +39,25 @@ java -version
 
 echo "[vagrant provisioning] Installing LibreOffice..."
 
+sudo apt-get install -y libxrandr2 libxinerama1 libcups2 libfontconfig libglu1 libsm6
+
 wget -N -P ${CACHE_DIR} http://downloadarchive.documentfoundation.org/libreoffice/old/${LIBREOFFICE_VERSION}/deb/x86/${LIBREOFFICE_DEB_FILE}.tar.gz
 
 tar -xvzf ${CACHE_DIR}/${LIBREOFFICE_DEB_FILE}.tar.gz -C ${TMP_DIR}
 
-cd ${TMP_DIR}/${LIBREOFFICE_DEB_FILE}/DEBS
-
-sudo dpkg -i *.deb
-
-wget -N -P ${CACHE_DIR} http://downloadarchive.documentfoundation.org/libreoffice/old/${LIBREOFFICE_VERSION}/deb/x86/${LIBREOFFICE_HELPPACK_FILE}.tar.gz
-
-tar -xvzf ${CACHE_DIR}/${LIBREOFFICE_HELPPACK_FILE}.tar.gz -C ${TMP_DIR}
-
-cd ${TMP_DIR}/${LIBREOFFICE_HELPPACK_FILE}/DEBS
+cd ${TMP_DIR}/${LIBREOFFICE_DEB_FILE:0:3}*/DEBS
 
 sudo dpkg -i *.deb
 
 update-alternatives --install /usr/bin/soffice soffice /opt/libreoffice${LIBREOFFICE_VERSION::-4}/program/soffice 100
 
+update-alternatives --install /usr/bin/soffice.bin soffice.bin /opt/libreoffice${LIBREOFFICE_VERSION::-4}/program/soffice.bin 100
+
 update-alternatives --display soffice
 
-soffice --version
+update-alternatives --display soffice.bin
+
+soffice.bin --version
 
 ##### END PROVISION #####
 

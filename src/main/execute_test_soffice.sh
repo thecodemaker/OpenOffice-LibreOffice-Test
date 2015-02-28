@@ -1,27 +1,55 @@
 #!/bin/bash
 
+NO_OF_EXECUTIONS=2;
+
 N=100;
-echo "$(/opt/libreoffice3.4/program/soffice --version)";
 
 cd ./resources
 
-#echo "Create the documents we want to use for testing."
+echo "$(date +"%H:%M:%S"): $(soffice.bin --version)" >> test_results.txt
+
+echo "Create the documents we want to use for testing."
 for i in $(seq 1 $N); do
     cp input/hello.odt input/hello_$i.odt
 done
 
-/opt/libreoffice3.4/program/soffice --headless --invisible --convert-to pdf --outdir "result/" input/hello.odt &>/dev/null
+echo "Create control file.";
+soffice.bin \
+    --headless \
+    --nocrashreport \
+    --nodefault \
+    --nofirststartwizard \
+    --nolockcheck \
+    --nologo \
+    --norestore \
+    --invisible \
+    --convert-to pdf \
+    --outdir "result/" input/hello.odt
+if [ ! -f result/hello.pdf ]; then
+    echo "$(date +"%H:%M:%S"): Document conversion failed." >> test_results.txt
+fi
 
-#echo "Convert documents."
+echo "Start document conversion."
 startTime=$(date +%s);
 for i in $(seq 1 $N); do
-    /opt/libreoffice3.4/program/soffice --headless --invisible  --convert-to pdf --outdir "result/" input/hello_$i.odt &>/dev/null
+
+   soffice.bin \
+    --headless \
+    --nocrashreport \
+    --nodefault \
+    --nofirststartwizard \
+    --nolockcheck \
+    --nologo \
+    --norestore \
+    --invisible \
+    --convert-to pdf \
+     --outdir "result/" input/hello_$i.odt
 done
 endTime=$(date +%s);
 duration=$((endTime-startTime));
-echo "Time required for converting ${N} documents: ${duration}";
+echo "$(date +"%H:%M:%S"): Time required for converting ${N} documents: ${duration}" >> test_results.txt
 
-#echo "Clean test data."
+echo "Clean test data."
 for i in $(seq 1 $N); do
-    rm -f input/hello_$i.odt result/hello_$i.pdf
+    rm -f input/hello_$i.odt result/hello*.pdf
 done
