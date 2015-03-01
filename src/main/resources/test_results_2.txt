@@ -126,24 +126,6 @@
 ---------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------
-19:00:12:	
-19:00:15:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[1]	seconds.
-19:00:18:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[1]	seconds.
-19:00:21:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[0]	seconds.
-19:00:25:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[1]	seconds.
-19:00:28:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[0]	seconds.
-19:00:29:	Document size:	[8972]Kb	Average duration:	[0.6]	seconds	Standard Deviation:	0.489898	%
-
-19:00:31:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[0]	seconds.
-19:00:34:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[0]	seconds.
-19:00:38:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[1]	seconds.
-19:00:41:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[0]	seconds.
-19:00:43:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[0]	seconds.
-19:00:44:	Document size:	[82307]Kb	Average duration:	[0.2]	seconds	Standard Deviation:	0.4	%
-
----------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------
 19:11:11:	LibreOffice 3.4  340m1(Build:602)
 19:12:23:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[68]	seconds.
 19:13:34:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[67]	seconds.
