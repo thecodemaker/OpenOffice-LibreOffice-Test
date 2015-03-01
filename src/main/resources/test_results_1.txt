@@ -1,0 +1,96 @@
+
+14:59:17:	LibreOffice 4.4.1.2 45e2de17089c24a1fa810c8f975a7171ba4cd432
+15:01:39: Execution:	[1]	NO_OF_DOCUMENTS:	[100]	Time:	[134]	seconds.
+15:03:59: Execution:	[2]	NO_OF_DOCUMENTS:	[100]	Time:	[130]	seconds.
+15:06:16: Execution:	[3]	NO_OF_DOCUMENTS:	[100]	Time:	[128]	seconds.
+15:08:37: Execution:	[4]	NO_OF_DOCUMENTS:	[100]	Time:	[131]	seconds.
+15:11:01: Execution:	[5]	NO_OF_DOCUMENTS:	[100]	Time:	[135]	seconds.
+15:13:24: Execution:	[6]	NO_OF_DOCUMENTS:	[100]	Time:	[134]	seconds.
+15:15:48: Execution:	[7]	NO_OF_DOCUMENTS:	[100]	Time:	[135]	seconds.
+15:18:03: Execution:	[8]	NO_OF_DOCUMENTS:	[100]	Time:	[127]	seconds.
+15:20:19: Execution:	[9]	NO_OF_DOCUMENTS:	[100]	Time:	[127]	seconds.
+15:22:44: Execution:	[10]	NO_OF_DOCUMENTS:	[100]	Time:	[136]	seconds.
+
+15:28:00:	LibreOffice 4.3.6.2 d50a87b2e514536ed401c18000dad4660b6a169e
+15:30:18: Execution:	[1]	NO_OF_DOCUMENTS:	[100]	Time:	[132]	seconds.
+15:32:31: Execution:	[2]	NO_OF_DOCUMENTS:	[100]	Time:	[124]	seconds.
+15:34:53: Execution:	[3]	NO_OF_DOCUMENTS:	[100]	Time:	[133]	seconds.
+15:37:04: Execution:	[4]	NO_OF_DOCUMENTS:	[100]	Time:	[123]	seconds.
+15:39:18: Execution:	[5]	NO_OF_DOCUMENTS:	[100]	Time:	[125]	seconds.
+15:41:29: Execution:	[6]	NO_OF_DOCUMENTS:	[100]	Time:	[122]	seconds.
+15:43:43: Execution:	[7]	NO_OF_DOCUMENTS:	[100]	Time:	[124]	seconds.
+15:45:58: Execution:	[8]	NO_OF_DOCUMENTS:	[100]	Time:	[124]	seconds.
+15:48:14: Execution:	[9]	NO_OF_DOCUMENTS:	[100]	Time:	[127]	seconds.
+15:50:28: Execution:	[10]	NO_OF_DOCUMENTS:	[100]	Time:	[125]	seconds.
+
+15:55:38:	LibreOffice 4.2.8.2 48d50dbfc06349262c9d50868e5c1f630a573ebd
+15:57:58: Execution:	[1]	NO_OF_DOCUMENTS:	[100]	Time:	[133]	seconds.
+16:00:19: Execution:	[2]	NO_OF_DOCUMENTS:	[100]	Time:	[132]	seconds.
+16:02:39: Execution:	[3]	NO_OF_DOCUMENTS:	[100]	Time:	[131]	seconds.
+16:05:00: Execution:	[4]	NO_OF_DOCUMENTS:	[100]	Time:	[133]	seconds.
+16:07:27: Execution:	[5]	NO_OF_DOCUMENTS:	[100]	Time:	[137]	seconds.
+16:09:50: Execution:	[6]	NO_OF_DOCUMENTS:	[100]	Time:	[134]	seconds.
+16:12:13: Execution:	[7]	NO_OF_DOCUMENTS:	[100]	Time:	[134]	seconds.
+16:14:39: Execution:	[8]	NO_OF_DOCUMENTS:	[100]	Time:	[137]	seconds.
+16:17:02: Execution:	[9]	NO_OF_DOCUMENTS:	[100]	Time:	[134]	seconds.
+16:19:22: Execution:	[10]	NO_OF_DOCUMENTS:	[100]	Time:	[131]	seconds.
+
+16:24:43:	LibreOffice 4.1.6.2 40ff705089295be5be0aae9b15123f687c05b0a
+16:27:17: Execution:	[1]	NO_OF_DOCUMENTS:	[100]	Time:	[147]	seconds.
+16:29:32: Execution:	[2]	NO_OF_DOCUMENTS:	[100]	Time:	[126]	seconds.
+16:31:49: Execution:	[3]	NO_OF_DOCUMENTS:	[100]	Time:	[128]	seconds.
+16:34:20: Execution:	[4]	NO_OF_DOCUMENTS:	[100]	Time:	[140]	seconds.
+16:36:58: Execution:	[5]	NO_OF_DOCUMENTS:	[100]	Time:	[147]	seconds.
+16:39:14: Execution:	[6]	NO_OF_DOCUMENTS:	[100]	Time:	[128]	seconds.
+16:41:42: Execution:	[7]	NO_OF_DOCUMENTS:	[100]	Time:	[139]	seconds.
+16:43:59: Execution:	[8]	NO_OF_DOCUMENTS:	[100]	Time:	[126]	seconds.
+16:46:24: Execution:	[9]	NO_OF_DOCUMENTS:	[100]	Time:	[135]	seconds.
+16:48:43: Execution:	[10]	NO_OF_DOCUMENTS:	[100]	Time:	[130]	seconds.
+
+16:53:20:	LibreOffice 4.0.6.2
+16:55:57: Execution:	[1]	NO_OF_DOCUMENTS:	[100]	Time:	[149]	seconds.
+16:58:31: Execution:	[2]	NO_OF_DOCUMENTS:	[100]	Time:	[145]	seconds.
+17:01:04: Execution:	[3]	NO_OF_DOCUMENTS:	[100]	Time:	[143]	seconds.
+17:03:43: Execution:	[4]	NO_OF_DOCUMENTS:	[100]	Time:	[149]	seconds.
+17:06:23: Execution:	[5]	NO_OF_DOCUMENTS:	[100]	Time:	[151]	seconds.
+17:09:09: Execution:	[6]	NO_OF_DOCUMENTS:	[100]	Time:	[156]	seconds.
+17:11:48: Execution:	[7]	NO_OF_DOCUMENTS:	[100]	Time:	[150]	seconds.
+17:14:22: Execution:	[8]	NO_OF_DOCUMENTS:	[100]	Time:	[146]	seconds.
+17:17:00: Execution:	[9]	NO_OF_DOCUMENTS:	[100]	Time:	[149]	seconds.
+17:19:32: Execution:	[10]	NO_OF_DOCUMENTS:	[100]	Time:	[143]	seconds.
+
+17:24:20:	LibreOffice 3.6 
+17:27:06: Execution:	[1]	NO_OF_DOCUMENTS:	[100]	Time:	[161]	seconds.
+17:29:51: Execution:	[2]	NO_OF_DOCUMENTS:	[100]	Time:	[155]	seconds.
+17:32:40: Execution:	[3]	NO_OF_DOCUMENTS:	[100]	Time:	[158]	seconds.
+17:35:29: Execution:	[4]	NO_OF_DOCUMENTS:	[100]	Time:	[159]	seconds.
+17:38:15: Execution:	[5]	NO_OF_DOCUMENTS:	[100]	Time:	[157]	seconds.
+17:41:04: Execution:	[6]	NO_OF_DOCUMENTS:	[100]	Time:	[159]	seconds.
+17:43:46: Execution:	[7]	NO_OF_DOCUMENTS:	[100]	Time:	[153]	seconds.
+17:46:25: Execution:	[8]	NO_OF_DOCUMENTS:	[100]	Time:	[150]	seconds.
+17:49:11: Execution:	[9]	NO_OF_DOCUMENTS:	[100]	Time:	[157]	seconds.
+17:51:59: Execution:	[10]	NO_OF_DOCUMENTS:	[100]	Time:	[158]	seconds.
+
+17:59:07:	LibreOffice 3.5 
+18:02:15: Execution:	[1]	NO_OF_DOCUMENTS:	[100]	Time:	[178]	seconds.
+18:05:19: Execution:	[2]	NO_OF_DOCUMENTS:	[100]	Time:	[174]	seconds.
+18:08:32: Execution:	[3]	NO_OF_DOCUMENTS:	[100]	Time:	[183]	seconds.
+18:11:51: Execution:	[4]	NO_OF_DOCUMENTS:	[100]	Time:	[184]	seconds.
+18:15:13: Execution:	[5]	NO_OF_DOCUMENTS:	[100]	Time:	[188]	seconds.
+18:18:23: Execution:	[6]	NO_OF_DOCUMENTS:	[100]	Time:	[178]	seconds.
+18:21:28: Execution:	[7]	NO_OF_DOCUMENTS:	[100]	Time:	[176]	seconds.
+18:24:27: Execution:	[8]	NO_OF_DOCUMENTS:	[100]	Time:	[170]	seconds.
+18:27:34: Execution:	[9]	NO_OF_DOCUMENTS:	[100]	Time:	[177]	seconds.
+18:30:42: Execution:	[10]	NO_OF_DOCUMENTS:	[100]	Time:	[178]	seconds.
+
+18:35:27:	LibreOffice 3.4  340m1(Build:602)
+18:38:08: Execution:	[1]	NO_OF_DOCUMENTS:	[100]	Time:	[156]	seconds.
+18:40:48: Execution:	[2]	NO_OF_DOCUMENTS:	[100]	Time:	[153]	seconds.
+18:43:26: Execution:	[3]	NO_OF_DOCUMENTS:	[100]	Time:	[148]	seconds.
+18:45:59: Execution:	[4]	NO_OF_DOCUMENTS:	[100]	Time:	[146]	seconds.
+18:48:35: Execution:	[5]	NO_OF_DOCUMENTS:	[100]	Time:	[149]	seconds.
+18:51:03: Execution:	[6]	NO_OF_DOCUMENTS:	[100]	Time:	[142]	seconds.
+18:53:35: Execution:	[7]	NO_OF_DOCUMENTS:	[100]	Time:	[146]	seconds.
+18:56:07: Execution:	[8]	NO_OF_DOCUMENTS:	[100]	Time:	[145]	seconds.
+18:58:35: Execution:	[9]	NO_OF_DOCUMENTS:	[100]	Time:	[141]	seconds.
+19:01:09: Execution:	[10]	NO_OF_DOCUMENTS:	[100]	Time:	[147]	seconds.
