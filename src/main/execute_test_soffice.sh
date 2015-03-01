@@ -6,11 +6,10 @@ echo -e "\n---------------------------------------------------------------------
 echo -e "$(date +"%H:%M:%S"):\t$(soffice.bin --version)" >> test_results.txt
 
 NO_OF_DOCUMENTS=50;
-NO_OF_EXECUTIONS=10;
+NO_OF_EXECUTIONS=3;
 FILENAMES=(\
     'hello' \
     'ODFAG' \
-    'OpenDocument' \
     );
 
 for ((f=0; f<${#FILENAMES[@]}; f++)); do
