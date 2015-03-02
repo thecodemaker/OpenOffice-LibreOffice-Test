@@ -1,10 +1,10 @@
 #!/bin/bash
 
-LIBREOFFICE_VERSION=${1%?};
-echo "PARAM: LIBREOFFICE_VERSION=${LIBREOFFICE_VERSION}";
+OFFICE_VERSION=${1%?};
+echo "PARAM: OFFICE_VERSION=${OFFICE_VERSION}";
 
-LIBREOFFICE_DEB_FILE=${2};
-echo "PARAM: LIBREOFFICE_DEB_FILE=${LIBREOFFICE_DEB_FILE}";
+OFFICE_DEB_FILE=${2};
+echo "PARAM: OFFICE_DEB_FILE=${OFFICE_DEB_FILE}";
 
 CACHE_DIR='/var/cache/wget'
 TMP_DIR='/tmp'
@@ -12,7 +12,7 @@ TMP_DIR='/tmp'
 ##### PROVISION #####
 
 sudo apt-get -y purge openjdk-7-jdk
-sudo apt-get -y purge libreoffice*
+sudo apt-get -y purge libreoffice* openoffice*
 
 sudo apt-get -y update
 sudo apt-get -y install software-properties-common python-software-properties
@@ -37,21 +37,28 @@ update-alternatives --display javac
 java -version
 
 
-echo "[vagrant provisioning] Installing LibreOffice..."
+echo "[vagrant provisioning] Installing Office..."
 
 sudo apt-get install -y libxrandr2 libxinerama1 libcups2 libfontconfig libglu1 libsm6
 
-wget -N -P ${CACHE_DIR} http://downloadarchive.documentfoundation.org/libreoffice/old/${LIBREOFFICE_VERSION}/deb/x86/${LIBREOFFICE_DEB_FILE}.tar.gz
+if [[ ${OFFICE_DEB_FILE} == Lib* ]]; then
+    wget -N -P ${CACHE_DIR} http://sourceforge.net/projects/openofficeorg.mirror/files/${OFFICE_VERSION}/binaries/en-US/${OFFICE_DEB_FILE}.tar.gz/download
+else
+    wget -N -P ${CACHE_DIR} http://downloadarchive.documentfoundation.org/libreoffice/old/${OFFICE_VERSION}/deb/x86/${OFFICE_DEB_FILE}.tar.gz
+fi
 
-tar -xvzf ${CACHE_DIR}/${LIBREOFFICE_DEB_FILE}.tar.gz -C ${TMP_DIR}
+tar -xvzf ${CACHE_DIR}/${OFFICE_DEB_FILE}.tar.gz -C ${TMP_DIR}
 
-cd ${TMP_DIR}/${LIBREOFFICE_DEB_FILE:0:3}*/DEBS
+cd ${TMP_DIR}/${OFFICE_DEB_FILE:0:3}*/DEBS
 
 sudo dpkg -i *.deb
 
-update-alternatives --install /usr/bin/soffice soffice /opt/libreoffice${LIBREOFFICE_VERSION::-4}/program/soffice 100
-
-update-alternatives --install /usr/bin/soffice.bin soffice.bin /opt/libreoffice${LIBREOFFICE_VERSION::-4}/program/soffice.bin 100
+if [[ ${OFFICE_DEB_FILE} == Lib* ]]; then
+    update-alternatives --install /usr/bin/soffice soffice /opt/libreoffice${OFFICE_VERSION::-4}/program/soffice 100
+    update-alternatives --install /usr/bin/soffice.bin soffice.bin /opt/libreoffice${OFFICE_VERSION::-4}/program/soffice.bin 100
+else
+    echo "implement this"
+fi
 
 update-alternatives --display soffice
 
