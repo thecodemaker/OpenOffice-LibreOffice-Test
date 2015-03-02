@@ -42,26 +42,31 @@ echo "[vagrant provisioning] Installing Office..."
 sudo apt-get install -y libxrandr2 libxinerama1 libcups2 libfontconfig libglu1 libsm6
 
 if [[ ${OFFICE_DEB_FILE} == Lib* ]]; then
-    wget -N -P ${CACHE_DIR} http://sourceforge.net/projects/openofficeorg.mirror/files/${OFFICE_VERSION}/binaries/en-US/${OFFICE_DEB_FILE}.tar.gz/download
-else
     wget -N -P ${CACHE_DIR} http://downloadarchive.documentfoundation.org/libreoffice/old/${OFFICE_VERSION}/deb/x86/${OFFICE_DEB_FILE}.tar.gz
+else
+    wget -N -P ${CACHE_DIR} http://sourceforge.net/projects/openofficeorg.mirror/files/${OFFICE_VERSION}/binaries/en-US/${OFFICE_DEB_FILE}.tar.gz/download
 fi
 
 tar -xvzf ${CACHE_DIR}/${OFFICE_DEB_FILE}.tar.gz -C ${TMP_DIR}
 
-cd ${TMP_DIR}/${OFFICE_DEB_FILE:0:3}*/DEBS
+if [[ ${OFFICE_DEB_FILE} == Lib* ]]; then
+    cd ${TMP_DIR}/${OFFICE_DEB_FILE:0:3}*/DEBS
+else
+    cd ${TMP_DIR}/en*/DEBS
+fi
 
 sudo dpkg -i *.deb
 
+
 if [[ ${OFFICE_DEB_FILE} == Lib* ]]; then
-    update-alternatives --install /usr/bin/soffice soffice /opt/libreoffice${OFFICE_VERSION::-4}/program/soffice 100
-    update-alternatives --install /usr/bin/soffice.bin soffice.bin /opt/libreoffice${OFFICE_VERSION::-4}/program/soffice.bin 100
+    office_instance='libreoffice';
 else
-    echo "implement this"
+    office_instance='openoffice';
 fi
+update-alternatives --install /usr/bin/soffice soffice /opt/${office_instance}${OFFICE_VERSION::-4}/program/soffice 100
+update-alternatives --install /usr/bin/soffice.bin soffice.bin /opt/${office_instance}${OFFICE_VERSION::-4}/program/soffice.bin 100
 
 update-alternatives --display soffice
-
 update-alternatives --display soffice.bin
 
 soffice.bin --version
