@@ -2,52 +2,191 @@
 Some results. Ideally you can take the code and execute on your local machine to see the differences.
 Test results are influenced on the processes which run on the host machine.
 
-Time required for converting 100 documents:
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+20:41:52:	LibreOffice 4.4.1.2 45e2de17089c24a1fa810c8f975a7171ba4cd432
+20:43:05:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[68]	seconds.
+20:44:09:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[59]	seconds.
+20:45:21:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[65]	seconds.
+20:46:30:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[64]	seconds.
+20:47:41:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[65]	seconds.
+20:47:44:	Document size:	[8972]Kb	Average duration:	[64.2]	seconds	Standard Deviation:	2.92575	%
 
-<table><tr>
-<td>Test Execution</td><td>1</td><td>2</td><td>3</td><td>Average</td><td>Standard deviation</td>
-<tr></tr>
-<td>LibreOffice 4.4.0.2 40m0(Build:2)</td><td>256</td><td>254</td><td>241</td><td>250</td><td>6.6%</td>
-<tr></tr>
-<td>LibreOffice 4.2.8.2 420m0(Build:2)</td><td>236</td><td>248</td><td>227</td><td>237</td><td>8.6%</td>
-<tr></tr>
-<td>LibreOffice 4.0.4.2</td><td>180</td><td>172</td><td>178</td><td>176.6(6)</td><td>3.46%</td>
-<tr></tr>
-<td>LibreOffice 3.6</td><td>268</td><td>266</td><td>269</td><td>267.6(6)</td><td>1.41%</td>
-<tr></tr>
-<td>LibreOffice 3.4  340m1(Build:602)</td><td>194</td><td>215</td><td>201</td><td>203.3(3)</td><td>8.73%</td>
-</tr></table>
+20:50:53:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[182]	seconds.
+20:54:06:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[184]	seconds.
+20:57:10:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[176]	seconds.
+21:00:18:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[181]	seconds.
+21:03:25:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[179]	seconds.
+21:03:27:	Document size:	[82307]Kb	Average duration:	[180.4]	seconds	Standard Deviation:	2.72764	%
 
-Older execution:
+---------------------------------------------------------------------------------------------------------------
 
-LibreOffice 3.5
-Time required for converting 100 documents: 280
+---------------------------------------------------------------------------------------------------------------
+21:07:53:	LibreOffice 3.4  340m1(Build:602)
+21:09:07:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[69]	seconds.
+21:10:20:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[68]	seconds.
+21:11:34:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[68]	seconds.
+21:12:48:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[69]	seconds.
+21:14:01:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[69]	seconds.
+21:14:03:	Document size:	[8972]Kb	Average duration:	[68.6]	seconds	Standard Deviation:	0.489898	%
 
-LibreOffice 3.5
-Time required for converting 100 documents: 273
+21:16:26:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[138]	seconds.
+21:18:46:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[132]	seconds.
+21:21:04:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[132]	seconds.
+21:23:25:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[134]	seconds.
+21:25:44:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[132]	seconds.
+21:25:46:	Document size:	[82307]Kb	Average duration:	[133.6]	seconds	Standard Deviation:	2.33238	%
 
-LibreOffice 3.5
-Time required for converting 100 documents: 286
-= 279.66
-
-
-LibreOffice 4.2.8.2 420m0(Build:2)
-Time required for converting 100 documents: 343
-
-LibreOffice 4.2.8.2 420m0(Build:2)
-Time required for converting 100 documents: 341
-
-LibreOffice 4.2.8.2 420m0(Build:2)
-Time required for converting 100 documents: 365
-= 349.66
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
 
-LibreOffice 4.4.1.2 40m0(Build:2)
-Time required for converting 100 documents: 341
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+13:54:06:	LibreOffice 4.4.1.2 45e2de17089c24a1fa810c8f975a7171ba4cd432
+13:55:13:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[62]	seconds.
+13:56:15:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[56]	seconds.
+13:57:16:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[56]	seconds.
+13:58:20:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[58]	seconds.
+13:59:27:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[61]	seconds.
+13:59:29:	Document size:	[8972]Kb	Average duration:	[58.6]	seconds	Standard Deviation:	2.498	%
 
-LibreOffice 4.4.1.2 40m0(Build:2)
-Time required for converting 100 documents: 356
+14:02:15:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[159]	seconds.
+14:04:57:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[155]	seconds.
+14:07:46:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[161]	seconds.
+14:10:32:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[158]	seconds.
+14:13:19:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[158]	seconds.
+14:13:21:	Document size:	[82307]Kb	Average duration:	[158.2]	seconds	Standard Deviation:	1.93907	%
 
-LibreOffice 4.4.1.2 40m0(Build:2)
-Time required for converting 100 documents: 341
-= 346
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+14:18:16:	LibreOffice 4.3.6.2 d50a87b2e514536ed401c18000dad4660b6a169e
+14:19:39:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[78]	seconds.
+14:20:53:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[68]	seconds.
+14:22:16:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[78]	seconds.
+14:23:36:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[75]	seconds.
+14:25:08:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[87]	seconds.
+14:25:10:	Document size:	[8972]Kb	Average duration:	[77.2]	seconds	Standard Deviation:	6.11228	%
+
+14:28:36:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[197]	seconds.
+14:31:59:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[196]	seconds.
+14:35:17:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[189]	seconds.
+14:38:32:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[187]	seconds.
+14:41:50:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[187]	seconds.
+14:41:52:	Document size:	[82307]Kb	Average duration:	[191.2]	seconds	Standard Deviation:	4.4	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+14:46:50:	LibreOffice 4.2.8.2 48d50dbfc06349262c9d50868e5c1f630a573ebd
+14:48:22:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[84]	seconds.
+14:49:46:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[78]	seconds.
+14:51:10:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[78]	seconds.
+14:52:23:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[68]	seconds.
+14:53:37:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[68]	seconds.
+14:53:39:	Document size:	[8972]Kb	Average duration:	[75.2]	seconds	Standard Deviation:	6.27375	%
+
+14:57:00:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[193]	seconds.
+15:00:32:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[203]	seconds.
+15:03:58:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[197]	seconds.
+15:07:23:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[197]	seconds.
+15:10:56:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[202]	seconds.
+15:10:58:	Document size:	[82307]Kb	Average duration:	[198.4]	seconds	Standard Deviation:	3.66606	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+15:15:42:	LibreOffice 4.1.6.2 40ff705089295be5be0aae9b15123f687c05b0a
+15:17:02:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[74]	seconds.
+15:18:25:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[77]	seconds.
+15:19:49:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[78]	seconds.
+15:21:16:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[81]	seconds.
+15:22:33:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[72]	seconds.
+15:22:36:	Document size:	[8972]Kb	Average duration:	[76.4]	seconds	Standard Deviation:	3.13688	%
+
+15:26:13:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[208]	seconds.
+15:29:58:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[216]	seconds.
+15:33:38:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[210]	seconds.
+15:37:22:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[214]	seconds.
+15:40:59:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[208]	seconds.
+15:41:01:	Document size:	[82307]Kb	Average duration:	[211.2]	seconds	Standard Deviation:	3.24962	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+15:45:30:	LibreOffice 4.0.6.2
+15:46:51:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[74]	seconds.
+15:48:10:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[73]	seconds.
+15:49:28:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[72]	seconds.
+15:50:42:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[68]	seconds.
+15:52:02:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[75]	seconds.
+15:52:04:	Document size:	[8972]Kb	Average duration:	[72.4]	seconds	Standard Deviation:	2.41661	%
+
+15:55:24:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[192]	seconds.
+15:58:42:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[190]	seconds.
+16:02:04:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[194]	seconds.
+16:05:26:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[193]	seconds.
+16:08:48:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[193]	seconds.
+16:08:50:	Document size:	[82307]Kb	Average duration:	[192.4]	seconds	Standard Deviation:	1.35647	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+16:13:54:	LibreOffice 3.6
+16:15:31:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[89]	seconds.
+16:17:09:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[92]	seconds.
+16:18:39:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[84]	seconds.
+16:20:15:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[89]	seconds.
+16:21:46:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[86]	seconds.
+16:21:49:	Document size:	[8972]Kb	Average duration:	[88]	seconds	Standard Deviation:	2.75681	%
+
+16:25:15:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[198]	seconds.
+16:29:00:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[216]	seconds.
+16:32:34:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[202]	seconds.
+16:35:53:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[190]	seconds.
+16:38:59:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[177]	seconds.
+16:39:01:	Document size:	[82307]Kb	Average duration:	[196.6]	seconds	Standard Deviation:	12.9244	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+16:45:21:	LibreOffice 3.5
+16:46:45:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[80]	seconds.
+16:48:12:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[81]	seconds.
+16:49:41:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[83]	seconds.
+16:51:05:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[78]	seconds.
+16:52:27:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[77]	seconds.
+16:52:30:	Document size:	[8972]Kb	Average duration:	[79.8]	seconds	Standard Deviation:	2.13542	%
+
+18:27:21:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[5685]	seconds.
+18:30:12:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[163]	seconds.
+18:32:57:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[158]	seconds.
+18:35:39:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[154]	seconds.
+18:47:28:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[702]	seconds.
+18:47:29:	Document size:	[82307]Kb	Average duration:	[1372.4]	seconds	Standard Deviation:	2166.56	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+19:11:11:	LibreOffice 3.4  340m1(Build:602)
+19:12:23:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[68]	seconds.
+19:13:34:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[67]	seconds.
+19:14:44:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[66]	seconds.
+19:16:00:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[72]	seconds.
+19:17:12:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[67]	seconds.
+19:17:14:	Document size:	[8972]Kb	Average duration:	[68]	seconds	Standard Deviation:	2.09762	%
+
+19:19:33:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[134]	seconds.
+19:21:50:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[131]	seconds.
+19:24:10:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[133]	seconds.
+19:26:29:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[133]	seconds.
+19:28:47:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[132]	seconds.
+19:28:49:	Document size:	[82307]Kb	Average duration:	[132.6]	seconds	Standard Deviation:	1.0198	%
+
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
