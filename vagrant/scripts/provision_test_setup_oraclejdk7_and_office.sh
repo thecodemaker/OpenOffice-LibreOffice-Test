@@ -44,7 +44,7 @@ sudo apt-get install -y libxrandr2 libxinerama1 libcups2 libfontconfig libglu1 l
 if [[ ${OFFICE_DEB_FILE} == Lib* ]]; then
     wget -N -P ${CACHE_DIR} http://downloadarchive.documentfoundation.org/libreoffice/old/${OFFICE_VERSION}/deb/x86/${OFFICE_DEB_FILE}.tar.gz
 else
-    wget -N -P ${CACHE_DIR} http://sourceforge.net/projects/openofficeorg.mirror/files/${OFFICE_VERSION}/binaries/en-US/${OFFICE_DEB_FILE}.tar.gz/download
+    wget -N -P ${CACHE_DIR} http://sourceforge.net/projects/openofficeorg.mirror/files/${OFFICE_VERSION}/binaries/en-US/${OFFICE_DEB_FILE}.tar.gz
 fi
 
 tar -xvzf ${CACHE_DIR}/${OFFICE_DEB_FILE}.tar.gz -C ${TMP_DIR}
