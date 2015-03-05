@@ -15,7 +15,7 @@ sudo apt-get -y purge openjdk-7-jdk
 sudo apt-get -y purge libreoffice* openoffice*
 
 sudo apt-get -y update
-sudo apt-get -y install software-properties-common python-software-properties
+sudo apt-get -y install software-properties-common python-software-properties unzip
 
 
 echo "[vagrant provisioning] Installing Java..."
@@ -69,7 +69,13 @@ update-alternatives --install /usr/bin/soffice.bin soffice.bin /opt/${office_ins
 update-alternatives --display soffice
 update-alternatives --display soffice.bin
 
-soffice.bin --version
+#soffice.bin --version
+
+echo "[vagrant provisioning] Copying jodconverter..."
+
+wget -N -P ${CACHE_DIR} wget http://sourceforge.net/projects/jodconverter/files/JODConverter/2.2.2/jodconverter-2.2.2.zip
+
+unzip -o ${CACHE_DIR}/jodconverter-2.2.2.zip -d /vagrant_data/
 
 ##### END PROVISION #####
 

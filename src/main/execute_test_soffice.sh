@@ -3,10 +3,10 @@
 cd ./resources
 
 echo -e "\n---------------------------------------------------------------------------------------------------------------" >> test_results.txt
-echo -e "$(date +"%H:%M:%S"):\t$(soffice.bin --version)" >> test_results.txt
+echo -e "$(date +"%H:%M:%S"):\t$(soffice -h 2>&1 | head -n1)" >> test_results.txt
 
-NO_OF_DOCUMENTS=50;
-NO_OF_EXECUTIONS=5;
+NO_OF_DOCUMENTS=10;
+NO_OF_EXECUTIONS=2;
 FILENAMES=(\
     'hello' \
     'ODFAG' \
@@ -25,17 +25,7 @@ for ((f=0; f<${#FILENAMES[@]}; f++)); do
         done
 
         echo "Create control file.";
-        soffice.bin \
-            --headless \
-            --nocrashreport \
-            --nodefault \
-            --nofirststartwizard \
-            --nolockcheck \
-            --nologo \
-            --norestore \
-            --invisible \
-            --convert-to pdf \
-            --outdir "result" input/${filename}.odt
+        java -jar ../jodconverter-2.2.2/lib/jodconverter-cli-2.2.2.jar input/${filename}.odt result/${filename}.pdf
 
     #    if [ ! -e /vagrant_data/resources/result/${filename}.pdf ]; then
     #        echo "$(date +"%H:%M:%S"): Document conversion failed." >> test_results_1.txt
@@ -44,20 +34,11 @@ for ((f=0; f<${#FILENAMES[@]}; f++)); do
 
         echo "Start document conversion."
         startTime=$(date +%s);
-        for i in $(seq 1 $NO_OF_DOCUMENTS); do
 
-           soffice.bin \
-            --headless \
-            --nocrashreport \
-            --nodefault \
-            --nofirststartwizard \
-            --nolockcheck \
-            --nologo \
-            --norestore \
-            --invisible \
-            --convert-to pdf \
-             --outdir "result" input/${filename}_$i.odt
+        for i in $(seq 1 $NO_OF_DOCUMENTS); do
+           java -jar ../jodconverter-2.2.2/lib/jodconverter-cli-2.2.2.jar input/${filename}_$i.odt result/${filename}_$i.pdf
         done
+
         endTime=$(date +%s);
         duration=$((endTime-startTime));
         durations[$((execution-1))]=$duration;
