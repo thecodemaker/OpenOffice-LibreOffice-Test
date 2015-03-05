@@ -20,12 +20,13 @@ _start_instances() {
     # Start OOo
     echo "Starting Office on ${host}:${port} using home directory ${HOME}"
     sock="socket,host=${host},port=${port},tcpNoDelay=1;urp;StarOffice.ServiceManager"
-
     if [[ ${1} == Lib* ]]; then
-        opts="--nologo --nofirststartwizard --nodefault --nocrashreport --norestart --nolockcheck --headless"
-        nohup soffice --userid="${HOME}" --accept="${sock}" ${opts} > soffice_${port}.log 2>&1 &
+#        chown -vR vagrant:vagrant ~/.config
+        chown -R --reference="${HOME}" ~/.config
+        opts="--nologo --nofirststartwizard --nodefault --nocrashreport --nolockcheck --headless --norestore"
+        nohup soffice --accept="${sock}" -env:UserInstallation="file://${HOME}" ${opts} > soffice_${port}.log 2>&1 &
     else
-        opts="-nologo -nofirststartwizard -nodefault -nocrashreport -norestart -nolockcheck -headless"
+        opts="-nologo -nofirststartwizard -nodefault -nocrashreport -nolockcheck -headless -norestore"
         nohup soffice -userid="${HOME}" -accept="${sock}" ${opts} > soffice_${port}.log 2>&1 &
     fi
 }

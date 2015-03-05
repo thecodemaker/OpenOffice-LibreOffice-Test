@@ -1,11 +1,11 @@
 #!/bin/bash
 
 OFFICE_VERSIONS=(\
-#    '4.4.1.2' \
+    '4.4.1.2' \
 #    '4.3.6.2' \
 #    '4.2.8.2' \
 #    '4.1.6.2' \
-    '4.1.1'   \
+#    '4.1.1'   \
 #    '4.0.6.2' \
 #    '3.6.7.2' \
 #    '3.5.7.2' \
@@ -13,11 +13,11 @@ OFFICE_VERSIONS=(\
     );
 
 OFFICE_DEB_FILES=(\
-#    'LibreOffice_4.4.1.2_Linux_x86_deb' \
+    'LibreOffice_4.4.1.2_Linux_x86_deb' \
 #    'LibreOffice_4.3.6.2_Linux_x86_deb' \
 #    'LibreOffice_4.2.8.2_Linux_x86_deb' \
 #    'LibreOffice_4.1.6.2_Linux_x86_deb' \
-    'Apache_OpenOffice_4.1.1_Linux_x86_install-deb_en-US' \
+#    'Apache_OpenOffice_4.1.1_Linux_x86_install-deb_en-US' \
 #    'LibreOffice_4.0.6.2_Linux_x86_deb' \
 #    'LibO_3.6.7.2_Linux_x86_install-deb_en-US' \
 #    'LibO_3.5.7rc2_Linux_x86_install-deb_en-US' \
