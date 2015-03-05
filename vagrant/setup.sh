@@ -7,6 +7,7 @@ OFFICE_VERSIONS=(\
     '4.1.6.2' \
     '4.1.1'   \
     '4.0.6.2' \
+    '4.0.1'   \
     '3.6.7.2' \
     '3.5.7.2' \
     '3.4.6.2' \
@@ -19,6 +20,7 @@ OFFICE_DEB_FILES=(\
     'LibreOffice_4.1.6.2_Linux_x86_deb' \
     'Apache_OpenOffice_4.1.1_Linux_x86_install-deb_en-US' \
     'LibreOffice_4.0.6.2_Linux_x86_deb' \
+    'Apache_OpenOffice_4.0.1_Linux_x86_install-deb_en-US' \
     'LibO_3.6.7.2_Linux_x86_install-deb_en-US' \
     'LibO_3.5.7rc2_Linux_x86_install-deb_en-US' \
     'LibO_3.4.6rc2_Linux_x86_install-deb_en-US' \

@@ -6,8 +6,8 @@ echo -e "\n---------------------------------------------------------------------
 echo -e "$(date +"%H:%M:%S"):\t${1}" >> test_results.txt
 echo -e "$(date +"%H:%M:%S"):\t${1}" >> execute_test_log.txt
 
-NO_OF_DOCUMENTS=10;
-NO_OF_EXECUTIONS=2;
+NO_OF_DOCUMENTS=50;
+NO_OF_EXECUTIONS=5;
 FILENAMES=(\
     'hello' \
     'ODFAG' \
@@ -28,22 +28,21 @@ for ((f=0; f<${#FILENAMES[@]}; f++)); do
         echo "Create control file.";
         java -jar ../jodconverter-2.2.2/lib/jodconverter-cli-2.2.2.jar input/${filename}.odt result/${filename}.pdf 2>> execute_test_log.txt
 
-    #    if [ ! -e /vagrant_data/resources/result/${filename}.pdf ]; then
-    #        echo "$(date +"%H:%M:%S"): Document conversion failed." >> test_results_1.txt
-    #        exit 1;
-    #    fi
-
         echo "Start document conversion."
         startTime=$(date +%s);
 
+        converted_documents=0;
         for i in $(seq 1 $NO_OF_DOCUMENTS); do
            java -jar ../jodconverter-2.2.2/lib/jodconverter-cli-2.2.2.jar input/${filename}_$i.odt result/${filename}_$i.pdf 2>> execute_test_log.txt
+           if [ -f result/${filename}.pdf ]; then
+               converted_documents=$((converted_documents+1));
+           fi
         done
 
         endTime=$(date +%s);
         duration=$((endTime-startTime));
         durations[$((execution-1))]=$duration;
-        echo -e "$(date +"%H:%M:%S"):\tExecution:\t[${execution}]\tNO_OF_DOCUMENTS:\t[${NO_OF_DOCUMENTS}]\tDocument size:\t[${filesize}]Kb\tTime:\t[${duration}]\tseconds." >> test_results.txt
+        echo -e "$(date +"%H:%M:%S"):\tExecution:\t[${execution}]\tNO_OF_DOCUMENTS:\t[${converted_documents}]\tDocument size:\t[${filesize}]Kb\tTime:\t[${duration}]\tseconds." >> test_results.txt
 
         echo "Clean test data."
         for i in $(seq 1 $NO_OF_DOCUMENTS); do
