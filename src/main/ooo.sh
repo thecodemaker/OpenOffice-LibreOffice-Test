@@ -1,5 +1,6 @@
 #!/bin/bash
 
+OOO_HOME=/Applications/OpenOffice.org.app/Contents
 USER_HOME=/tmp
 
 _create_home() {
@@ -29,6 +30,5 @@ _start_instances() {
     fi
 }
 
-echo $1;
 _start_instances $1
 exit 0
