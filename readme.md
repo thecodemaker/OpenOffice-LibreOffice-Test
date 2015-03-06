@@ -1,5 +1,5 @@
 
-Test project setup with vagrant. Purpose is test different version of OpenOffice and LibreOffice to measure performance. 
+Test project setup with vagrant. Purpose is to test different version of OpenOffice and LibreOffice to measure performance. 
 
 ```
 #!/bin/bash
