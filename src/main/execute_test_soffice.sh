@@ -3,7 +3,8 @@
 cd ./resources
 
 echo -e "\n---------------------------------------------------------------------------------------------------------------" >> test_results.txt
-echo -e "$(date +"%H:%M:%S"):\t$(soffice.bin --version)" >> test_results.txt
+echo -e "$(date +"%H:%M:%S"):\t${1}" >> test_results.txt
+echo -e "$(date +"%H:%M:%S"):\t${1}" >> execute_test_log.txt
 
 NO_OF_DOCUMENTS=50;
 NO_OF_EXECUTIONS=5;
@@ -25,43 +26,23 @@ for ((f=0; f<${#FILENAMES[@]}; f++)); do
         done
 
         echo "Create control file.";
-        soffice.bin \
-            --headless \
-            --nocrashreport \
-            --nodefault \
-            --nofirststartwizard \
-            --nolockcheck \
-            --nologo \
-            --norestore \
-            --invisible \
-            --convert-to pdf \
-            --outdir "result" input/${filename}.odt
-
-    #    if [ ! -e /vagrant_data/resources/result/${filename}.pdf ]; then
-    #        echo "$(date +"%H:%M:%S"): Document conversion failed." >> test_results_1.txt
-    #        exit 1;
-    #    fi
+        java -jar ../jodconverter-2.2.2/lib/jodconverter-cli-2.2.2.jar input/${filename}.odt result/${filename}.pdf 2>> execute_test_log.txt
 
         echo "Start document conversion."
         startTime=$(date +%s);
-        for i in $(seq 1 $NO_OF_DOCUMENTS); do
 
-           soffice.bin \
-            --headless \
-            --nocrashreport \
-            --nodefault \
-            --nofirststartwizard \
-            --nolockcheck \
-            --nologo \
-            --norestore \
-            --invisible \
-            --convert-to pdf \
-             --outdir "result" input/${filename}_$i.odt
+        converted_documents=0;
+        for i in $(seq 1 $NO_OF_DOCUMENTS); do
+           java -jar ../jodconverter-2.2.2/lib/jodconverter-cli-2.2.2.jar input/${filename}_$i.odt result/${filename}_$i.pdf 2>> execute_test_log.txt
+           if [ -f result/${filename}.pdf ]; then
+               converted_documents=$((converted_documents+1));
+           fi
         done
+
         endTime=$(date +%s);
         duration=$((endTime-startTime));
         durations[$((execution-1))]=$duration;
-        echo -e "$(date +"%H:%M:%S"):\tExecution:\t[${execution}]\tNO_OF_DOCUMENTS:\t[${NO_OF_DOCUMENTS}]\tDocument size:\t[${filesize}]Kb\tTime:\t[${duration}]\tseconds." >> test_results.txt
+        echo -e "$(date +"%H:%M:%S"):\tExecution:\t[${execution}]\tNO_OF_DOCUMENTS:\t[${converted_documents}]\tDocument size:\t[${filesize}]Kb\tTime:\t[${duration}]\tseconds." >> test_results.txt
 
         echo "Clean test data."
         for i in $(seq 1 $NO_OF_DOCUMENTS); do
