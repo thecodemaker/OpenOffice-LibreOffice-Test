@@ -58,8 +58,8 @@ java -jar ../jodconverter-2.2.2/lib/jodconverter-cli-2.2.2.jar input/${filename}
 
 Results: 
 
-![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
-![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
-![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
+![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png) <br>
+![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png) <br>
+![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png) <br>
 
 Complete test results can be found in the repository.
