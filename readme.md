@@ -59,6 +59,7 @@ java -jar ../jodconverter-2.2.2/lib/jodconverter-cli-2.2.2.jar input/${filename}
 Results: 
 
 ![alt tag](/test_results/2015-03-06/graphic_test_results.jpg?raw=true) <br>
+![alt tag](/test_results/2015-03-09/graphic_test_results.jpg?raw=true) <br>
 ![alt tag](/test_results/2015-03-07/graphic_test_results.jpg?raw=true) <br>
 ![alt tag](/test_results/2015-03-08/graphic_test_results.jpg?raw=true) <br>
 

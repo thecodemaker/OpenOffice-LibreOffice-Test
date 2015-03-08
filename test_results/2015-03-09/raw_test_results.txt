@@ -1,0 +1,162 @@
+
+---------------------------------------------------------------------------------------------------------------
+09:06:33:	LibreOffice_4.4.1.2_Linux_x86_deb
+09:09:31:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[169]	seconds.
+09:12:16:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[159]	seconds.
+09:15:00:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[156]	seconds.
+09:17:57:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[171]	seconds.
+09:20:39:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[156]	seconds.
+09:20:41:	Document size:	[8972]Kb	Average duration:	[162.2]	seconds	Standard Deviation:	6.49307	%
+
+09:24:53:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[245]	seconds.
+09:29:03:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[242]	seconds.
+09:33:16:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[244]	seconds.
+09:37:38:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[253]	seconds.
+09:41:57:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[250]	seconds.
+09:41:59:	Document size:	[82307]Kb	Average duration:	[246.8]	seconds	Standard Deviation:	4.0694	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+09:47:32:	LibreOffice_4.3.6.2_Linux_x86_deb
+09:50:32:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[172]	seconds.
+09:53:37:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[179]	seconds.
+09:56:35:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[171]	seconds.
+09:59:46:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[182]	seconds.
+10:02:39:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[165]	seconds.
+10:02:41:	Document size:	[8972]Kb	Average duration:	[173.8]	seconds	Standard Deviation:	6.04649	%
+
+10:07:16:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[266]	seconds.
+10:12:13:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[285]	seconds.
+10:17:05:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[281]	seconds.
+10:22:02:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[288]	seconds.
+10:27:00:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[288]	seconds.
+10:27:02:	Document size:	[82307]Kb	Average duration:	[281.6]	seconds	Standard Deviation:	8.21219	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+10:32:16:	LibreOffice_4.2.8.2_Linux_x86_deb
+10:34:42:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[139]	seconds.
+10:37:16:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[148]	seconds.
+10:39:57:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[154]	seconds.
+10:42:32:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[148]	seconds.
+10:45:02:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[144]	seconds.
+10:45:04:	Document size:	[8972]Kb	Average duration:	[146.6]	seconds	Standard Deviation:	4.96387	%
+
+10:49:24:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[251]	seconds.
+10:53:48:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[254]	seconds.
+10:58:11:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[252]	seconds.
+11:02:21:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[241]	seconds.
+11:06:42:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[251]	seconds.
+11:06:44:	Document size:	[82307]Kb	Average duration:	[249.8]	seconds	Standard Deviation:	4.53431	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+11:12:12:	LibreOffice_4.1.6.2_Linux_x86_deb
+11:15:18:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[178]	seconds.
+11:18:23:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[178]	seconds.
+11:21:31:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[180]	seconds.
+11:24:35:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[176]	seconds.
+11:27:38:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[175]	seconds.
+11:27:41:	Document size:	[8972]Kb	Average duration:	[177.4]	seconds	Standard Deviation:	1.74356	%
+
+11:32:56:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[306]	seconds.
+11:37:57:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[291]	seconds.
+11:43:22:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[314]	seconds.
+11:48:40:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[306]	seconds.
+11:54:10:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[318]	seconds.
+11:54:13:	Document size:	[82307]Kb	Average duration:	[307]	seconds	Standard Deviation:	9.25203	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+11:58:55:	Apache_OpenOffice_4.1.1_Linux_x86_install-deb_en-US
+12:01:37:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[156]	seconds.
+12:04:18:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[153]	seconds.
+12:06:50:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[145]	seconds.
+12:09:31:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[154]	seconds.
+12:11:58:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[140]	seconds.
+12:12:00:	Document size:	[8972]Kb	Average duration:	[149.6]	seconds	Standard Deviation:	6.08605	%
+
+12:15:41:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[214]	seconds.
+12:19:25:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[215]	seconds.
+12:23:07:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[212]	seconds.
+12:26:44:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[208]	seconds.
+12:30:29:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[216]	seconds.
+12:30:31:	Document size:	[82307]Kb	Average duration:	[213]	seconds	Standard Deviation:	2.82843	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+12:35:39:	LibreOffice_4.0.6.2_Linux_x86_deb
+12:38:54:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[185]	seconds.
+12:41:59:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[178]	seconds.
+12:44:54:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[165]	seconds.
+12:47:47:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[165]	seconds.
+12:50:44:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[169]	seconds.
+12:50:47:	Document size:	[8972]Kb	Average duration:	[172.4]	seconds	Standard Deviation:	7.88923	%
+
+12:55:31:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[275]	seconds.
+13:00:33:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[290]	seconds.
+13:05:28:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[283]	seconds.
+13:10:09:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[271]	seconds.
+13:14:54:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[275]	seconds.
+13:14:56:	Document size:	[82307]Kb	Average duration:	[278.8]	seconds	Standard Deviation:	6.82349	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+13:19:43:	Apache_OpenOffice_4.0.1_Linux_x86_install-deb_en-US
+13:23:04:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[192]	seconds.
+13:26:33:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[200]	seconds.
+13:29:35:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[174]	seconds.
+13:32:30:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[168]	seconds.
+13:35:39:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[182]	seconds.
+13:35:41:	Document size:	[8972]Kb	Average duration:	[183.2]	seconds	Standard Deviation:	11.6344	%
+
+13:40:24:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[274]	seconds.
+13:45:20:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[284]	seconds.
+13:49:45:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[254]	seconds.
+13:54:28:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[274]	seconds.
+13:59:23:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[283]	seconds.
+13:59:26:	Document size:	[82307]Kb	Average duration:	[273.8]	seconds	Standard Deviation:	10.7778	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+14:14:16:	LibO_3.5.7rc2_Linux_x86_install-deb_en-US
+14:16:50:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[149]	seconds.
+14:19:28:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[152]	seconds.
+14:22:08:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[153]	seconds.
+14:24:54:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[160]	seconds.
+14:27:27:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[147]	seconds.
+14:27:29:	Document size:	[8972]Kb	Average duration:	[152.2]	seconds	Standard Deviation:	4.44522	%
+
+14:31:54:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[256]	seconds.
+14:36:11:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[246]	seconds.
+14:40:28:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[247]	seconds.
+14:44:53:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[255]	seconds.
+14:49:05:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[243]	seconds.
+14:49:07:	Document size:	[82307]Kb	Average duration:	[249.4]	seconds	Standard Deviation:	5.1614	%
+
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+14:54:15:	LibO_3.4.6rc2_Linux_x86_install-deb_en-US
+14:56:28:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[128]	seconds.
+14:58:53:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[139]	seconds.
+15:01:21:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[142]	seconds.
+15:03:49:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[141]	seconds.
+15:06:12:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[8972]Kb	Time:	[136]	seconds.
+15:06:14:	Document size:	[8972]Kb	Average duration:	[137.2]	seconds	Standard Deviation:	5.03587	%
+
+15:09:50:	Execution:	[1]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[209]	seconds.
+15:13:29:	Execution:	[2]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[210]	seconds.
+15:17:16:	Execution:	[3]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[218]	seconds.
+15:21:15:	Execution:	[4]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[229]	seconds.
+15:25:04:	Execution:	[5]	NO_OF_DOCUMENTS:	[50]	Document size:	[82307]Kb	Time:	[218]	seconds.
+15:25:06:	Document size:	[82307]Kb	Average duration:	[216.8]	seconds	Standard Deviation:	7.19444	%
+
+---------------------------------------------------------------------------------------------------------------
